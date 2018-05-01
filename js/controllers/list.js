@@ -7,11 +7,17 @@
 
         vm.data = turtlesData;
         vm.activeTurtle = {};
+        vm.activateQuiz = activateQuiz;
         vm.changeActiveTurtle = changeActiveTurtle;
         vm.search = "";
+        vm.quizActive = false;
 
         function changeActiveTurtle (index){
             vm.activeTurtle = index;
+        }
+         
+        function activateQuiz() {
+            vm.quizActive = true;
         }
     }
 
