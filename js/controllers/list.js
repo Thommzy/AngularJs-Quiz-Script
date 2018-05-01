@@ -8,7 +8,7 @@
         vm.data = turtlesData;
         vm.activeTurtle = {};
         vm.changeActiveTurtle = changeActiveTurtle;
-        vm.search = "jhjh";
+        vm.search = "";
 
         function changeActiveTurtle (index){
             vm.activeTurtle = index;
@@ -19,7 +19,7 @@
         {
             type: "Green Turtle",
             image_url: "https://upload.wikimedia.org/wikipedia/commons/c/c5/Oriental_Turtle_Dove.jpg",
-            locations: "Lagos State",
+            locations: "Ogun State",
             size: "Up to 5.0m and up to 400kg",
             lifespan: "Over 60 years",
             diet: "Herbivore",
