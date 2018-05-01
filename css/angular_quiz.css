@@ -6,3 +6,6 @@ div#test{
 .well-image{
     width
 }
+.top-buffer {
+    margin-top: 20px;
+}
