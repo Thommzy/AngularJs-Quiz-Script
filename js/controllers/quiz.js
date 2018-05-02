@@ -1,4 +1,10 @@
 (function () {
     angular.module("turtleFacts")
-        .controller()
+        .controller("quizCtrl", QuizController);
+
+    function QuizController() {
+        var vm = this;
+
+    }
+
 }) ();
