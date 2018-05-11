@@ -10,7 +10,7 @@
         var vm = this;
 
         vm.quizMetrics = quizMetrics;
-        vm.dataservice = DataService;
+        vm.dataService = DataService;
 
     }
 
