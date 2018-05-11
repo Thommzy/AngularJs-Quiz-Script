@@ -1,10 +1,17 @@
 (function () {
-    angular.module("turtleFacts")
+    angular
+    	.module("turtleFacts")
         .controller("quizCtrl", QuizController);
 
-    function QuizController() {
+        QuizController.$inject = ['quizMetrics', 'DataService'];
+
+
+    function QuizController(quizMetrics, DataService) {
         var vm = this;
+
+        vm.quizMetrics = quizMetrics;
+        vm.dataservice = DataService;
 
     }
 
-}) ();
+})	();

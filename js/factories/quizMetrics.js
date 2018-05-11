@@ -1,7 +1,7 @@
 (function () {
     angular
         .module("turtleFacts")
-        .factory("quizMetrics, QuizMetrics");
+        .factory("quizMetrics", QuizMetrics);
 
     
     function QuizMetrics() {
