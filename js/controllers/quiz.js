@@ -1,5 +1,5 @@
 (function () {
-    angular
+    angular 
     	.module("turtleFacts")
         .controller("quizCtrl", QuizController);
 
@@ -15,7 +15,7 @@
         vm.setActiveQuestion = setActiveQuestion;
         vm.activeQuestion = 0;
 
-        var numQuestionsAnswered = 0; 
+        var numQuestionsAnswered = 0;   
 
         function setActiveQuestion(){
             var breakOut = false;
